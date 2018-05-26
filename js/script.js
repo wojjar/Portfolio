@@ -32,11 +32,11 @@ window.onload = function()
 //=== Navbar ===//
 
 function myFunction() {
-    var x = document.getElementById("myNavbar");
-    if (x.className === "topnav") {
-        x.className += " responsive";
+    var navbar = document.getElementById("myNavbar");
+    if (navbar.className === "topnav") {
+        navbar.className += " responsive";
     } else {
-        x.className = "topnav";
+        navbar.className = "topnav";
     }
 }
 
