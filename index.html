@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Jarosław Wójcik</title>
     <meta charset="UTF-8">
@@ -14,6 +15,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
     <!--Navbar-->
@@ -148,13 +150,13 @@
     </section>
 
     <!--Portfolio-->
-    
+
     <section id="portfolio">
         <div class="container">
             <h2 class="title-Portfolio">Portfolio</h2>
 
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 project-one">
+                <div class=" col-sm-12 col-md-6  project-one">
 
                     <div class="project">
                         <h2>Rock, paper, scissors</h2>
@@ -175,7 +177,7 @@
 
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 project-two">
+                <div class="col-sm-12 col-md-6 project-two">
 
                     <div class="project">
                         <h2>PSD to HTML</h2>
@@ -200,39 +202,37 @@
 
     <!--Contact-->
 
-    <section id="contact">
-        <div class="container">
-            <h1>Contact</h1>
-
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-
-                    <div class="contact-mail">
-
-                        <h2>Czekam na wiadomość od Ciebie!</h2>
-                        <a href="mailTo:jaroslaw.wojcik@interia.com" class="contactButton">Wyślij wiadomość</a>
-
-                    </div>
-
+    <section id="contact" class="contact">
+        <div class="container ">
+            <h1 class="title-contact">Kontakt</h1>
+            <div class="row ">
+                <div class="col-md-12 contact-mail">
+                    <h2 class="message">Czekam na wiadomość od Ciebie!</h2>
+                    <a href="mailTo:jaroslaw.wojcik@interia.com" class="contactButton">Wyślij wiadomość</a>
                 </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <div class="contact-items">
-
-                        <p>
-                            <span>Name: </span>JAROSŁAW WÓJCIK</p>
-                        <p>
-                            <span>Phone: </span>
-                            <a class="link-tel" href="tel:664296032">664 296 032</a>
-                        </p>
-                        <p>
-                            <span>Email adress: </span>
-                            <a class="link-mail" href="mailto:jaroslaw.wojcik@interia.com">jaroslaw.wojcik@interia.com</a>
-                        </p>
-                        <p>
-                            <span>Home city: </span>WARSAW</p>
-
-                    </div>
+            </div>
+        </div>
+        <!-- socialMedia-->
+        <div class="container ">
+            <div class="row ">
+                <div class="col-xs-12 col-md-12">
+                    <ul class="socialMedia ">
+                        <li>
+                            <a href="https://www.linkedin.com/in/wojcik-jaroslaw/">
+                                <i class="fa fa-linkedin icon-fa"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/wojjar">
+                                <i class="fab fa-github icon-fa"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+48664296032">
+                                <i class="fa fa-mobile icon-fa">+48 664296032</i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -241,11 +241,13 @@
     <!--Footer-->
 
     <footer>
-
-        <div class="col-md-12">
-            <p class="copyright">&copy; Copyright Jarosław Wójcik 2018</p>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="copyright">&copy; Copyright Jarosław Wójcik 2018</p>
+                </div>
+            </div>
         </div>
-
     </footer>
 
     <!--Scripts-->
