@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*===================================== CSS RESET ===========================================*/
 /* http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
@@ -89,7 +88,8 @@ table {
 .container {
     width: 100%;                    
     max-width: 1200px;             
-    margin: 0 auto;                 
+    margin: 0 auto; 
+               
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
@@ -101,7 +101,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .topnav {
-    background-color: #7B9AAC;
+    background-color: #302E74;
     position: fixed;
     top: 0;
     width: 100vw;
@@ -122,7 +122,7 @@ body {
     color: black;
 }
 .active {
-    background-color: #7B9AAC;
+    background-color: #302E74;
     color: white; 
 } 
 .topnav .icon {
@@ -327,467 +327,75 @@ width: 100px;
 /*============================== Contact ====================================*/
 
 #contact {
-    padding: 50px;
-    background-color: grey;
+    padding: 50px 0;
+    background-color: #302E74;
+    color: #fff;
 }
-.contactButton {
-	color: #fff;
-    padding: 15px 20px;
-    display: inline-block;
-    margin-top: 20px;
-    border: 1px solid #fff;
-    border-radius: 2px;
-}
-.contactButton:hover {
-	text-decoration: none;
-	color: grey;
-	background-color: #fff;
-}
-
-/*============================== Footer ====================================*/
-
-footer {
+.title-contact {
     text-align: center;
-    color: white;
-    height: 50px;
-    line-height: 50px;
-    background-color: black;
- }
-
-/*============================== Media Queries ==============================*/
-
- @media(max-width: 767px){
-    /* Extra small devices (phones, less than 768px)  */
-    .col-xs-1 {width: 8.33%;}
-    .col-xs-2 {width: 16.66%;}
-    .col-xs-3 {width: 25%;}
-    .col-xs-4 {width: 33.33%;}
-    .col-xs-5 {width: 41.66%;}
-    .col-xs-6 {width: 50%;}
-    .col-xs-7 {width: 58.33%;}
-    .col-xs-8 {width: 66.66%;}
-    .col-xs-9 {width: 75%;}
-    .col-xs-10 {width: 83.33%;}
-    .col-xs-11 {width: 91.66%;}
-    .col-xs-12 {width: 100%;}
-   
-    .titleMessage .heading p  {
-        font-size: 15px;
-    }
-    .about {
-       
-        padding: 30px 0;
-    }
-    section {
-        text-align: justify;
-    }
-}
-
-@media(min-width: 768px) and (max-width: 991px){
-    /* Small devices (tablets, 768px and up) */
-    .col-sm-1 {width: 8.33%;}
-    .col-sm-2 {width: 16.66%;}
-    .col-sm-3 {width: 25%;}
-    .col-sm-4 {width: 33.33%;}
-    .col-sm-5 {width: 41.66%;}
-    .col-sm-6 {width: 50%;}
-    .col-sm-7 {width: 58.33%;}
-    .col-sm-8 {width: 66.66%;}
-    .col-sm-9 {width: 75%;}
-    .col-sm-10 {width: 83.33%;}
-    .col-sm-11 {width: 91.66%;}
-    .col-sm-12 {width: 100%;}
-
-    .titleMessage .heading p  {
-        font-size: 25px;
-    }
-    .about {
-       
-        padding: 30px 0;
-    }
-    section {
-        text-align: justify;
-    }   
-}
-
-@media(min-width: 992px) and (max-width: 1199px) {
-   /* Medium devices (desktops, 992px and up) */
-    .col-md-1 {width: 8.33%;}
-    .col-md-2 {width: 16.66%;}
-    .col-md-3 {width: 25%;}
-    .col-md-4 {width: 33.33%;}
-    .col-md-5 {width: 41.66%;}
-    .col-md-6 {width: 50%;}
-    .col-md-7 {width: 58.33%;}
-    .col-md-8 {width: 66.66%;}
-    .col-md-9 {width: 75%;}
-    .col-md-10 {width: 83.33%;}
-    .col-md-11 {width: 91.66%;}
-    .col-md-12 {width: 100%;}
-}
-
-@media(min-width: 1200px) {
-  /* Large devices (large desktops, 1200px and up) */  
-    .col-lg-1 {width: 8.33%;}
-    .col-lg-2 {width: 16.66%;}
-    .col-lg-3 {width: 25%;}
-    .col-lg-4 {width: 33.33%;}
-    .col-lg-5 {width: 41.66%;}
-    .col-lg-6 {width: 50%;}
-    .col-lg-7 {width: 58.33%;}
-    .col-lg-8 {width: 66.66%;}
-    .col-lg-9 {width: 75%;}
-    .col-lg-10 {width: 83.33%;}
-    .col-lg-11 {width: 91.66%;}
-    .col-lg-12 {width: 100%;}
-}
-
-
-
-=======
-/*===================================== CSS RESET ===========================================*/
-/* http://meyerweb.com/eric/tools/css/reset/
-v2.0 | 20110126
-License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
- margin: 0;
- padding: 0;
- border: 0;
- font-size: 100%;
- font: inherit;
- vertical-align: baseline;
-}
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
- display: block;
-}
-body {
- line-height: 1;
-}
-ol, ul {
- list-style: none;
-}
-blockquote, q {
- quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
- content: '';
- content: none;
-}
-table {
- border-collapse: collapse;
- border-spacing: 0;
-}
-
-
-/* ======================================================== grid =====================================================*/
-
-* {
-	box-sizing: border-box;
-}
-.container::before,
-.container::after {
-	clear: both;
-	content: "";
-	display: table;
-}
-.col-1 {width: 8.33%}
-.col-2 {width: 16.66%}
-.col-3 {width: 25%}
-.col-4 {width: 33.33%}
-.col-5 {width: 41.66%}
-.col-6 {width: 50%}
-.col-7 {width: 58.33%}
-.col-8 {width: 66.667%}
-.col-9 {width: 75%}
-.col-10 {width: 83.33%}
-.col-11 {width: 91.66%}
-.col-12 {width: 100%;}
-
-
-.col-offset-0 {margin-left: 0%;}
-.col-offset-1 {margin-left: 8.33%;}
-.col-offset-2 {margin-left: 16.66%;}
-.col-offset-3 {margin-left: 25%;}
-.col-offset-4 {margin-left: 33.33%;}
-.col-offset-5 {margin-left: 41.66%;}
-.col-offset-6 {margin-left: 50%;}
-.col-offset-7 {margin-left: 58.33%;}
-.col-offset-8 {margin-left: 66.66%;}
-.col-offset-9 {margin-left: 75%;}
-.col-offset-10 {margin-left: 83.33%;}
-.col-offset-11 {margin-left: 91.66%;}
-
-.container {
-    width: 100%;                    
-    max-width: 1200px;             
-    margin: 0 auto;                 
-}
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
-
-/*============================== Navbar ====================================*/
-
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.topnav {
-    background-color: #7B9AAC;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    min-height: 50px;
-    z-index: 5; 
-}
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px 22px;
-    text-decoration: none;
-    font-size: 22px;
-}
-.topnav a:hover {
-    background-color: #7B9AAC;
-    color: black;
-}
-.active {
-    background-color: #7B9AAC;
-    color: white; 
-} 
-.topnav .icon {
-    display: none;
-    width: 50px;
-    height: 40px ;
-}
-.icon .fa{
-    width: 30px;
-    height:25px ;
-}
-@media screen and (max-width: 767px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-     
-      float: right;
-      display: block;
-    }
-} 
-@media screen and (max-width: 767px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-.topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;    
-    }
-}
-
-/*============================== Slider ====================================*/
-.page-content {
-  display: flex;
-  height: 100vh;
-  max-width: 100%;
-}
-.flex-item {
-    width:100%;
-}
-#slideShow
-{ 
-    height: 100%;
-    width:100%;
-    position: relative;   
-}
-#slideShow img
-{
-    width: 100%;
-    position: absolute; 
-    opacity: 0;
-    height: 100%;
-    transition: 1s;
-}
-#slideShow .current {
-    opacity: 1;
-    transition: 2s;
-}
-.overlay {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	z-index: 2;
-	background-color: rgba(0, 0, 0, 0.3);
-}
-.titleMessage {
-	position: absolute;
-    width: 100%;
-    height: 250px;
-    top: 50%;
-    z-index: 3;
-    text-align: center;
-}
-.titleMessage .heading p {
-	color: #fff;
-    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-    font-weight: 600;
-    letter-spacing: 7px;
-    font-size: 60px; 
-}
-.front-end {
-    padding: 20px;
-}
-
-/*============================== Loader ====================================*/
-.loader {
-	width: 100%;
-	height: 100%;
-	background-color: #fff;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-    z-index: 1000;
-}
-.loader .inside {
-	width: 100%;
-	height: 100%;
-	background: url(../images/loader.gif) center center no-repeat;
-}
-
-/*============================== About ====================================*/
-
-.about {
-    background-color: #f4f4f4;
-    background-size: cover;
-    padding: 100px 0;
-}
-.aboutImage {
-	max-width: 100%;
-}
-.box,.myname{
-    font-family: -apple-system,BlinkMacSystemFont,
-    "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,
-    "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 16px;
-    letter-spacing: 1px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-}
-.myname {
-    font-size: 20px;
-    padding: 10px 0;
-}
-/*============================== Skills ====================================*/
-
-#skills  {
-    text-align: center;
-    padding: 80px 0;
-}
-.icon {
-    display: inline;
-    border: 0;
-    padding: 25px; 
-    border-radius: 20%;
-    margin: 0 auto;
-    cursor: pointer;
-    font-size: 50px;
-    color: red;
-    justify-content: end;
-}
-.imgRedux {
-width: 100px;
-}
-
-/*============================== Portfolio ====================================*/
-
-#portfolio {
-    background-color: white;
-    width: 100%;
-    padding-bottom: 40px;
-    text-align: center;
-}
-.title-Portfolio {
-    padding: 60px;
+    padding: 40px;
     font-size: 40px;
-}
-.btn {
-    display: flex;
-    width: 100%;
-    height: 40px;
-    background-color: #7B9AAC;
-    text-align: center;
-    border: 2px solid blue;
-}
-.btn:hover {
     color: white;
-    background: #7B9AAC;
-    font-weight: 400;
-}
-.btn button:first-child {
-    width: 50%;
-}
-
-.btn button:last-child {
-    flex-grow: 1;
-}
-.project {
-    padding: 50px 10px;
-    border: 2px solid black;
-}
-.project-one {
-   /* background-image: url("../images/project-one.png");*/
-    margin-bottom: 10%;
-}
-.project-two {
- /*   background-image: url("../images/project-two.png");*/
-    margin-bottom: 10%;
-}
-.project {
-    transition: 1.5s ease;
-    transition-delay: .1s;
-}
-.project:hover {
-    box-shadow: 0px 0px 20px 5px gray;
-    transform: scale(1.1);
-}
-
-/*============================== Contact ====================================*/
-
-#contact {
-    padding: 50px;
-    background-color: grey;
 }
 .contactButton {
 	color: #fff;
-    padding: 15px 20px;
-    display: inline-block;
-    margin-top: 20px;
-    border: 1px solid #fff;
-    border-radius: 2px;
+
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px auto 0;
+    display: table;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "proxima-nova", sans-serif;
+    transition: background-color 300ms ease-out;
 }
 .contactButton:hover {
 	text-decoration: none;
-	color: grey;
+    color: grey;
 	background-color: #fff;
+}
+.contact-mail{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+    line-height: 30px;
+    font-family: "proxima-nova", sans-serif;
+    font-style: normal; 
+}
+.message {
+    font-family: -apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",
+    Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.contact-items {
+    color: white;
+    font-size: 20px;
+}
+.contact-details {
+    background-color: black;
+}
+.socialMedia {
+    list-style: none;   
+    padding: 30px  0;
+    display: block;
+    text-align: center;    
+}
+.socialMedia li {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+ .icon-fa{
+    font-size: 50px;
+    padding: 20px;
+    text-rendering: auto;
+    color: #fff;
 }
 
 /*============================== Footer ====================================*/
@@ -798,6 +406,7 @@ footer {
     height: 50px;
     line-height: 50px;
     background-color: black;
+
  }
 
 /*============================== Media Queries ==============================*/
@@ -890,4 +499,3 @@ footer {
 
 
 
->>>>>>> 52cb805f91edbaea2ac1266e72cb99d699f92413
