@@ -1,9 +1,9 @@
-/*===================================== CSS RESET ===========================================*/
+/* ===================================== CSS RESET ===========================================
 /* http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
 License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -44,7 +44,7 @@ q:before, q:after {
 table {
  border-collapse: collapse;
  border-spacing: 0;
-}
+} */
 
 
 /* ======================================================== grid =====================================================*/
@@ -86,7 +86,7 @@ table {
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Oswald", Open Sans, Helvetica, sans-serif;
 }
 .topnav {
     background-color: #302E74;
@@ -224,9 +224,7 @@ body {
 	max-width: 100%;
 }
 .box,.myname{
-    font-family: -apple-system,BlinkMacSystemFont,
-    "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,
-    "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-family: "Oswald", Open Sans, Helvetica, sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
     font-weight: 400;
@@ -246,6 +244,13 @@ body {
     text-align: center;
     padding: 80px 0;
 }
+.title-skills {
+    padding: 40px 0 30px 0;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: "Oswald", Open Sans, Helvetica, sans-serif;
+}
 .icon {
     display: inline;
     border: 0;
@@ -258,7 +263,11 @@ body {
     justify-content: end;
 }
 .imgRedux {
-width: 100px;
+    padding-top: 16px;
+    width: 100px;
+}
+ul {
+    list-style: none;
 }
 
 /*============================== Portfolio ====================================*/
@@ -266,11 +275,15 @@ width: 100px;
 .title-Portfolio {
     padding: 30px;
     font-size: 40px;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: "Oswald", Open Sans, Helvetica, sans-serif;
+    zoom: 1;
 }
 .portfolio {
     background-color: #f4f4f4;
     background-size: cover;
-    padding: 100px 0;
+    padding: 70px 0 100px 0;
 }
 .portfolio .heading {
 	text-align: center;
@@ -444,18 +457,15 @@ ul {
     color: #fff;
 }
 
-
-
 /*============================== Footer ====================================*/
-
-footer {
-    text-align: center;
-    color: white;
-    height: 50px;
-    line-height: 50px;
-    background-color: black;
-
- }
+.copyright {
+	background-color: #000;
+	color: #fff;
+	padding: 30px 5px;
+}
+.copyright p {
+	margin: 0;
+}
 
 /*============================== Media Queries ==============================*/
 
