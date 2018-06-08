@@ -72,18 +72,6 @@ table {
 .col-12 {width: 100%;}
 
 
-.col-offset-0 {margin-left: 0%;}
-.col-offset-1 {margin-left: 8.33%;}
-.col-offset-2 {margin-left: 16.66%;}
-.col-offset-3 {margin-left: 25%;}
-.col-offset-4 {margin-left: 33.33%;}
-.col-offset-5 {margin-left: 41.66%;}
-.col-offset-6 {margin-left: 50%;}
-.col-offset-7 {margin-left: 58.33%;}
-.col-offset-8 {margin-left: 66.66%;}
-.col-offset-9 {margin-left: 75%;}
-.col-offset-10 {margin-left: 83.33%;}
-.col-offset-11 {margin-left: 91.66%;}
 
 .container {
     width: 100%;                    
@@ -247,8 +235,10 @@ body {
     text-align: left;
 }
 .myname {
-    font-size: 20px;
+    font-size: 22px;
     padding: 10px 0;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 /*============================== Skills ====================================*/
 
@@ -273,57 +263,113 @@ width: 100px;
 
 /*============================== Portfolio ====================================*/
 
-#portfolio {
-    background-color: white;
-    width: 100%;
-    padding-bottom: 40px;
-    text-align: center;
-}
 .title-Portfolio {
-    padding: 60px;
+    padding: 30px;
     font-size: 40px;
 }
-.btn {
-    display: flex;
-    width: 100%;
+.portfolio {
+    background-color: #f4f4f4;
+    background-size: cover;
+    padding: 100px 0;
+}
+.portfolio .heading {
+	text-align: center;
+	padding-bottom: 40px;
+	width: 100%;
+}
+.items li {
+	display: inline-block;
+    padding: 5px;
+}
+.itemsContainer {
+   max-width: 100%;
+   height: auto ;
+}
+.items li img {
+	max-width: 100%;
+	-webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -transition: all 0.2s linear, 1s;
+}
+.items .item {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+.items .icons {
+	position: absolute;
+    width: 90px;
     height: 40px;
-    background-color: #7B9AAC;
+    left: 50%;
+    top: 50%;
+    margin: -20px auto 0 -47px;
     text-align: center;
-    border: 2px solid blue;
+    z-index: 3;
 }
-.btn:hover {
-    color: white;
-    background: #7B9AAC;
-    font-weight: 400;
+.items .icons i {
+	color: #fff;
+    font-size: 20px;
+    margin-top: 9px;
 }
-.btn button:first-child {
-    width: 50%;
+.items a {
+	width: 40px;
+    height: 40px;
+    background-color: #302E74;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: all 0.2s linear, 0.2s;
+    -moz-transition: all 0.2s linear, 0.2s;
+    -o-transition: all 0.2s linear, 0.2s;
+    -ms-transition: all 0.2s linear, 0.2s;
+    -transition: all 0.2s linear, 0.2s;
 }
-
-.btn button:last-child {
-    flex-grow: 1;
+.items .imageOverlay {
+	width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    -webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -transition: all 0.2s linear, 1s;
+    cursor: pointer;
 }
-.project {
-    padding: 50px 10px;
-    border: 2px solid black;
+.items .item:hover .imageOverlay {
+	opacity: 1;
 }
-.project-one {
-   /* background-image: url("../images/project-one.png");*/
-    margin-bottom: 10%;
+.items .openButton {
+	float: left;
+	left: -200px;
 }
-.project-two {
- /*   background-image: url("../images/project-two.png");*/
-    margin-bottom: 10%;
+.items .projectLink {
+	float: right;
+	right: -200px;
 }
-.project {
-    transition: 1.5s ease;
-    transition-delay: .1s;
+.items .item:hover .openButton {
+	left: 0px;
 }
-.project:hover {
-    box-shadow: 0px 0px 20px 5px gray;
-    transform: scale(1.1);
+.items .item:hover .projectLink {
+	right: 0px;
 }
-
+.items .item:hover img {
+	-webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -transform: scale(1.05, 1.05);
+}
+.items {
+	padding: 0;
+}
+ul {
+    display: table;
+}
 /*============================== Contact ====================================*/
 
 #contact {
@@ -397,6 +443,8 @@ width: 100px;
     text-rendering: auto;
     color: #fff;
 }
+
+
 
 /*============================== Footer ====================================*/
 
