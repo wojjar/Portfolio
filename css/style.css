@@ -381,7 +381,8 @@ ul {
 	padding: 0;
 }
 ul {
-    display: table;
+    display: flex;
+    flex-wrap: wrap;
 }
 /*============================== Contact ====================================*/
 
