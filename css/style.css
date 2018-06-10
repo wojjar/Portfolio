@@ -169,8 +169,7 @@ body {
     letter-spacing: 1px;
     font-weight: 700;
 }
-/*============================== Skills ====================================*/
-
+/*============================== Umiejętności ====================================*/
 #skills  {
     text-align: center;
     padding: 80px 0;
@@ -202,7 +201,6 @@ ul {
 }
 
 /*============================== Portfolio ====================================*/
-
 .title-Portfolio {
     padding: 30px;
     font-size: 40px;
@@ -289,11 +287,11 @@ ul {
 }
 .items .openButton {
 	float: left;
-	left: -200px;
+	left: -300px;
 }
 .items .projectLink {
 	float: right;
-	right: -200px;
+	right: -300px;
 }
 .items .item:hover .openButton {
 	left: 0px;
@@ -315,7 +313,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
 }
-/*============================== Contact ====================================*/
+/*============================== Kontakt ====================================*/
 
 #contact {
     padding: 50px 0;
