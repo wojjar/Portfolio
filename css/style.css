@@ -1,6 +1,10 @@
 * {
 	box-sizing: border-box;
 }
+body {
+    margin: 0;
+    font-family: "Oswald", Open Sans, Helvetica, sans-serif;
+}
 .container::before,
 .container::after {
 	clear: both;
@@ -14,11 +18,6 @@
 }
 
 /*============================== Navbar ====================================*/
-
-body {
-    margin: 0;
-    font-family: "Oswald", Open Sans, Helvetica, sans-serif;
-}
 .topnav {
     background-color: #302E74;
     position: fixed;
@@ -74,8 +73,8 @@ body {
       text-align: left;    
     }
 }
-
-/*============================== Slider ====================================*/
+/*============================== Main ====================================*/
+/* Slider */
 .page-content {
   display: flex;
   height: 100vh;
@@ -128,7 +127,7 @@ body {
     padding: 20px;
 }
 
-/*============================== Loader ====================================*/
+/* Loader */
 .loader {
 	width: 100%;
 	height: 100%;
@@ -144,10 +143,9 @@ body {
 	background: url(../images/loader.gif) center center no-repeat;
 }
 
-/*============================== About ====================================*/
-
+/*============================== O mnie ====================================*/
 .about {
-    background-color: #f4f4f4;
+    background-color: #f5f5f5;
     background-size: cover;
     padding: 100px 0;
 }
@@ -210,7 +208,7 @@ ul {
     zoom: 1;
 }
 .portfolio {
-    background-color: #f4f4f4;
+    background-color: #f5f5f5;
     background-size: cover;
     padding: 70px 0 100px 0;
 }
@@ -313,8 +311,8 @@ ul {
     display: flex;
     flex-wrap: wrap;
 }
-/*============================== Kontakt ====================================*/
 
+/*============================== Kontakt ====================================*/
 #contact {
     padding: 50px 0;
     background-color: #302E74;
@@ -328,10 +326,8 @@ ul {
 }
 .contactButton {
 	color: #fff;
-
     border: 2px solid #fff;
     border-radius: 10px;
-
     margin-left: auto;
     font-size: 18px;
     font-weight: 500;
