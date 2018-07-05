@@ -33,6 +33,10 @@ body {
 #navigation li a {
     color: #f2f2f2;
 }
+#navigation li a:hover {
+    background-color: #7B9AAC;
+    color: black;
+}
 .navbar-brand,
 .navbar-brand:hover {
     color: #f2f2f2;
