@@ -18,61 +18,30 @@ body {
 }
 
 /*============================== Navbar ====================================*/
-.topnav {
-    background-color: #302E74;
+#navigation {
+
     position: fixed;
-    top: 0;
-    width: 100vw;
-    min-height: 50px;
+    top: 0; 
+    width: 100%;
+    background-color: #302E74;
+    padding: 20px 20px;
     z-index: 5; 
 }
-.topnav a {
-    float: left;
-    display: block;
+#navigation li {
+    padding: 0 10px;
+}
+#navigation li a {
     color: #f2f2f2;
-    text-align: center;
-    padding: 20px 22px;
-    text-decoration: none;
-    font-size: 22px;
 }
-.topnav a:hover {
-    background-color: #7B9AAC;
-    color: black;
+.navbar-brand,
+.navbar-brand:hover {
+    color: #f2f2f2;
 }
-.active {
-    background-color: #302E74;
-    color: white; 
-} 
-.topnav .icon {
-    display: none;
-    width: 50px;
-    height: 40px ;
+.navbar-toggler-icon {
+    background: url("../images/icon_menu.png");
+    background-size: 100%; 
 }
-.icon .fa{
-    width: 30px;
-    height:25px ;
-}
-@media screen and (max-width: 767px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-     
-      float: right;
-      display: block;
-    }
-} 
-@media screen and (max-width: 767px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-.topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;    
-    }
-}
+
 /*============================== Main ====================================*/
 /* Slider */
 .page-content {
@@ -414,12 +383,27 @@ ul {
         font-size: 15px;
     }
     .about {
-       
         padding: 30px 0;
     }
-    section {
-        text-align: justify;
+    .box, .myname{
+        text-align: center;
     }
+     #skills:target
+    {
+       padding-top: 300px;
+    }
+    #about:target
+    {
+       padding-top: 300px;
+    }
+    #portfolio:target
+    {
+       padding-top: 300px;
+    }
+    #contact:target
+    {
+       padding-top: 300px;
+    } 
 }
 
 @media(min-width: 768px) and (max-width: 991px){
