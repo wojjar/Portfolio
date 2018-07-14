@@ -1,5 +1,4 @@
 
-//=== Slider ===//
 window.onload = function () {
     $(".loader .inside").fadeOut(1000, function () {
         $(".loader").fadeOut(500);
@@ -21,6 +20,7 @@ window.onload = function () {
         j++;
     }, 3000);
 };
+
 
 
 
