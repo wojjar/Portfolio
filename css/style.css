@@ -97,7 +97,7 @@ body {
 }
 
 /*============================== Main ====================================*/
-/* Slider */
+/* Slides*/
 .page-content {
   display: flex;
   height: 100vh;
@@ -139,12 +139,13 @@ body {
     z-index: 3;
     text-align: center;
 }
-.titleMessage .heading p {
+.titleMessage .heading  {
 	color: #fff;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     font-weight: 600;
     letter-spacing: 7px;
     font-size: 60px; 
+  
 }
 .front-end {
     padding: 20px;
@@ -235,7 +236,7 @@ ul {
     background-size: cover;
     padding: 70px 0 100px 0;
 }
-.portfolio .heading {
+.portfolio .heading-one {
 	text-align: center;
 	padding-bottom: 40px;
 	width: 100%;
@@ -421,22 +422,30 @@ ul {
  @media(max-width: 767px){
     /* Extra small devices (phones, less than 768px)  */
    
-    .titleMessage .heading p  {
+    .titleMessage .heading   {
         font-size: 15px;
+        line-height: 1.5;
+    }
+    .flex-container {
+      display: flex;
+      width: 200px;
+      margin: 0 auto;
+      justify-content: center;
+      flex-wrap: wrap;
     }
     .about {
-        padding: 30px 0;
+      padding: 30px 0;
     }
     .box, .myname{
-        text-align: center;
+      text-align: center;
     }
     #skills:target
     {
-       padding-top: 300px;
+      padding-top: 300px;
     }
     #about:target
     {
-       padding-top: 300px;
+      padding-top: 300px;
     }
     #portfolio:target
     {

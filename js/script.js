@@ -5,7 +5,7 @@ window.onload = function () {
     });
 
     var slider = document.getElementById("slideShow");
-    var imagesSrc = ["slide1.jpg", "slide2.jpg", "slide3.jpg"];
+    var imagesSrc = ["slide1.jpeg", "slide2.jpeg", "slide3.jpeg"];
     for (var i = 0; i < imagesSrc.length; i++) {
         var image = new Image();
         image.src = "images/" + imagesSrc[i];
