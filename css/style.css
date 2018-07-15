@@ -427,10 +427,8 @@ ul {
         line-height: 1.5;
     }
     .flex-container {
-      display: flex;
       width: 200px;
       margin: 0 auto;
-      justify-content: center;
       flex-wrap: wrap;
     }
     .about {
